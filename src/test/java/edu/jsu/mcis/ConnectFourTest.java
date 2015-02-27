@@ -26,7 +26,8 @@ public class ConnectFourTest{
     
     @Test(expected=ColumnFullException.class)
     public void testDroppingOnAFullColumnShouldThrowException() {
-        
+        ConnectFour c = new ConnectFour();
+		
     }
     
 }
